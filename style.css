@@ -1,0 +1,33 @@
+#countdown {
+    text-align: center;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+}
+
+#timer div {
+    margin: 0 10px;
+}
+
+#timer span {
+    display: block;
+    font-size: 48px;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+    /* background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 50px;
+    
+    font-style: italic;
+    font-weight: bold;
+}
